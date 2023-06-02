@@ -8,7 +8,7 @@
 #'
 #' @export
 
-read_config <- function(directory = "../config.yaml" ){
+read_config <- function(directory = "config.yaml" ){
 
   return(yaml::read_yaml(directory))
 }

@@ -8,5 +8,6 @@ Description: example R package which uses config
 License: MIT + file LICENSE
 Imports:
   yaml
+  testthat
 Encoding: UTF-8
 LazyData: true
