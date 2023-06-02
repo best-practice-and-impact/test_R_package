@@ -3,7 +3,7 @@
     "path": "D:/repos/test_R_package/test.r.package/R/preform_operations.r",
     "project_path": "R/preform_operations.r",
     "type": "r_source",
-    "hash": "1610060345",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1685699920258.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "143,0",
-        "scrollLine": "75"
+        "cursorPosition": "18,80",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1685700105,
+    "lastKnownWriteTime": 1685701579,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1685700105188,
+    "last_content_update": 1685701579240,
     "read_only": false,
     "read_only_alternatives": []
 }
