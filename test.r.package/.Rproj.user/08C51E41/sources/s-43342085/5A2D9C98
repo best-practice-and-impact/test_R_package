@@ -1,0 +1,26 @@
+{
+    "id": "5A2D9C98",
+    "path": "D:/repos/test_R_package/test.r.package/R/preform_operations.r",
+    "project_path": "R/preform_operations.r",
+    "type": "r_source",
+    "hash": "1610060345",
+    "contents": "",
+    "dirty": false,
+    "created": 1685699920258.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "143,0",
+        "scrollLine": "75"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1685700105,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1685700105188,
+    "read_only": false,
+    "read_only_alternatives": []
+}
