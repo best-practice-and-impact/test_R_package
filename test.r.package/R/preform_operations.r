@@ -48,8 +48,6 @@ arithmetic_with_two_numbers <- function(first_number, second_number, operator = 
 }
 
 
-
-
 #' @title Add two numbers together
 #'
 #' @description Take two numbers as inputs as add them
@@ -79,7 +77,7 @@ add_two_numbers <- function(first_number, second_number){
 #'
 #' @return subtraction of inputs
 
-subract_two_numbers <- function(first_number, second_number){
+subtract_two_numbers <- function(first_number, second_number){
 
   if(is.numeric(first_number) != "TRUE" |
      is.numeric(second_number) != "TRUE"){
