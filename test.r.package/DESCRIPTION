@@ -7,7 +7,7 @@ Maintainer: The package maintainer <jacob.cole@ons.gov.uk>
 Description: example R package which uses config
 License: MIT + file LICENSE
 Imports:
-  yaml
+  yaml,
   testthat
 Encoding: UTF-8
 LazyData: true
