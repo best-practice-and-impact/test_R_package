@@ -1,3 +1,55 @@
+#' perform multiple operations
+#'
+#' @description Perform adding, subtrating, multiplying and dividing on numbers as an API
+#'
+#' @param first_number first number to be added
+#' @param second_number second number to be added
+#'
+#' @return list of operation outputs
+#'
+#' @export
+
+perform_operation_api <- function(first_number, second_number){
+
+  addition_output <- arithmetic_with_two_numbers(first_number, second_number, operator = "add")
+  subtract_output <- arithmetic_with_two_numbers(first_number, second_number, operator = "subtract")
+  multiply_output <- arithmetic_with_two_numbers(first_number, second_number, operator = "multiply")
+  division_output <- arithmetic_with_two_numbers(first_number, second_number, operator = "divide")
+
+  return(list(addition_output, subtract_output, multiply_output, division_output))
+
+}
+
+#' @title Perform operation on two numbers
+#'
+#' @description The sum, difference, product or quotient of two numbers.
+#'
+#' @param first_number Number to add, subtract, multiply or divide
+#' @param second_number Number to add, subtract, multiply or divide from first
+#' @param operator : {"add", "subtract", "multiply", "divide"} Operation to do with `first_number` and `second_number`
+#'
+#' @return output from operation
+
+arithmetic_with_two_numbers <- function(first_number, second_number, operator = c("add", "subtract", "multiply", "divide")){
+
+  if(is.numeric(first_number) != "TRUE" |
+     is.numeric(second_number) != "TRUE"){
+    stop("Please enter a numeric value for both parameters; first_number and second_number")}
+
+  operator <- match.arg(operator)
+
+  operated_number <- if (operator == "add") {first_number + second_number
+  } else if (operator == "subtract") {first_number - second_number
+  } else if(operator == "multiply") {first_number * second_number
+  } else if(operator == "divide") first_number / second_number
+
+  return(operated_number)
+
+}
+
+
+
+
 #' @title Add two numbers together
 #'
 #' @description Take two numbers as inputs as add them
